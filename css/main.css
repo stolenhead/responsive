@@ -1,11 +1,140 @@
-/* Inserta tu codigo aqui */
-
+.back{
+	background-image:url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+} 
+.logo{
+	width: 30%;
+	padding-left: 23%;
+}
+nav{
+	background-color: #1C1821;
+} 
+.hover{
+	text-decoration: none;
+	color: #BBAD9F;
+	font-family: "Open+Sans:400,700,400italic", sans-serif;
+	padding: 1%;
+}
+.hover:hover{
+	color:#F5B968;
+}
+.left{
+	padding-top: 2%;
+}
+.ali{
+	text-align: center;
+}
+.color{
+	background-color: #2D2735;
+} 
+.color2{
+	padding-top: 3%;
+	background-color: #2D2735;
+}
+.divback{
+	padding: 15% 25% 15% 25%;
+	}
+   .divv{
+   background-color: #1C1821;
+	padding: 5% 0% 5% 0%;
+   }
+ 
+ .title{
+ 	font-family: "Courgette" ,sans-serif;
+ 	color: #EEB367;
+ 	font-size: 3rem;
+ 	text-align: center;
+ }
+ .titleblog{
+ 	font-family: "Courgette" ,sans-serif;
+ 	color: #EEB367;
+ 	font-size:2rem;
+ 	text-align: center;
+ }
+ .align{
+ 	text-align: center;
+ 	color: #91939C;
+ 	padding-bottom: 4%;
+ }
+ .subtitle{
+ 	text-align: center;
+ 	font-size: 80%;
+ 	color: #A8B1B3;
+}
+ .imgmedio{
+ 	width: 100%;
+ 	box-sizing: border-box;
+ }
+ .margin{
+ 	margin-top: 11%;
+ }
+ .padding{
+ 	padding-bottom: 8%;
+ }
+ .imgblog{
+ 	width: 100%;
+ }
+ .divblog{
+ 	background-color: #1C1821;
+ 	width: 100%;
+ }
+ .divsearch{
+ 	background-color: #1C1821;
+ 	box-sizing: border-box;
+ 	padding: 5%;
+ 	margin-bottom: 3%;
+ }
+.textsearch{
+	background-color: #2D2735;
+	padding: 2%;
+	border-radius: 10%;
+}
+.icon{
+	padding: 6%;
+	font-size: 160%;
+}
+.hambur{
+	display: none;
+	font-size: 4rem;
+	float: right;
+	padding-left: 30%;
+	padding-top: 5%;
+	color: white;
+}
+.foot{
+	background-color: #1C1821;
+	padding: 1%;
+	text-align: center;
+}
+.footy{
+	padding: 1%;
+	color: white;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
-}
+ 
 
 @media screen and (max-width: 600px) {
-
+.hambur{
+	display: block;
+}
+.nav{
+	display: none;
+}
+.logo{
+	width: 120%;
+	padding-left: 3%;
+}
+.borrado{
+	display: none;
+}
+.foot{
+	padding: 3%;
+	color: white;
+}
 }
