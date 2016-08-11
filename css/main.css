@@ -22,6 +22,11 @@ nav{
 .hover:hover{
 	color:#F5B968;
 }
+.hover2{
+	text-decoration: none;
+	color:#16111E;
+
+}
 .left{
 	padding-top: 2%;
 }
@@ -93,9 +98,20 @@ nav{
 	padding: 2%;
 	border-radius: 10%;
 }
+.padicon{
+	padding: 9%;
+}
 .icon{
-	padding: 6%;
+	padding: 7%;
 	font-size: 160%;
+	border-radius: 50%;
+	background-color: #2D2735;
+}
+.icon:hover{
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+background-color: white;
+color: orange;
 }
 .hambur{
 	display: none;
@@ -125,6 +141,10 @@ nav{
 @media screen and (max-width: 600px) {
 .hambur{
 	display: block;
+}
+.hambur:hover{
+cursor: pointer;
+    background-size: 150% 150%;
 }
 .nav{
 	display: none;
