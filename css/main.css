@@ -136,9 +136,14 @@ color: orange;
 /* Responsive */
 
 @media screen and (max-width : 920px) {
- 
 
-@media screen and (max-width: 600px) {
+	.gr-4  {
+		width: 100% ;
+	}
+	.gr-8{
+		width: 100% ;
+	}
+
 .hambur{
 	display: block;
 }
@@ -160,4 +165,7 @@ cursor: pointer;
 	padding: 3%;
 	color: white;
 }
+} 
+
+@media screen and (max-width: 600px) {
 }
