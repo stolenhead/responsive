@@ -1,5 +1,23 @@
 /* Inserta tu codigo aqui */
-
+.align{
+	text-align: center;
+	padding: 2%;
+	text-decoration: none;
+}
+.back{
+	background-image: url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	height: auto;
+	background-size: cover;
+}
+.divback{
+	padding: 15% ;
+}
+.divv{
+	background-color: #1c1821;
+	padding: 15% 0% 10% 5%;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
