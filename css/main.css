@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .back{
 	background-image:url(../image/header-image.jpg);
 	background-repeat: no-repeat;
@@ -109,6 +110,27 @@ nav{
 .footy{
 	padding: 1%;
 	color: white;
+=======
+/* Inserta tu codigo aqui */
+.align{
+	text-align: center;
+	padding: 2%;
+	text-decoration: none;
+}
+.back{
+	background-image: url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	height: auto;
+	background-size: cover;
+}
+.divback{
+	padding: 15% ;
+}
+.divv{
+	background-color: #1c1821;
+	padding: 15% 0% 10% 5%;
+>>>>>>> 4b44e7523b5564f0ab51f528f84d51d25c354eca
 }
 /* Responsive */
 
