@@ -99,11 +99,7 @@ nav{
 }
 .hambur{
 	display: none;
-	font-size: 4rem;
-	float: right;
-	padding-left: 30%;
-	padding-top: 5%;
-	color: white;
+	
 }
 .foot{
 	background-color: #1C1821;
@@ -122,6 +118,11 @@ nav{
 @media screen and (max-width: 600px) {
 .hambur{
 	display: block;
+	font-size: 4rem;
+	float: right;
+	padding-left: 30%;
+	padding-top: 5%;
+	color: white;
 }
 .nav{
 	display: none;
