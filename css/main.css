@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .back{
 	background-image:url(../image/header-image.jpg);
 	background-repeat: no-repeat;
@@ -100,7 +99,11 @@ nav{
 }
 .hambur{
 	display: none;
-	
+	font-size: 4rem;
+	float: right;
+	padding-left: 30%;
+	padding-top: 5%;
+	color: white;
 }
 .foot{
 	background-color: #1C1821;
@@ -110,27 +113,9 @@ nav{
 .footy{
 	padding: 1%;
 	color: white;
-=======
-/* Inserta tu codigo aqui */
-.align{
-	text-align: center;
-	padding: 2%;
-	text-decoration: none;
 }
-.back{
-	background-image: url(../image/header-image.jpg);
-	background-repeat: no-repeat;
-	background-position: 50% 40%;
-	height: auto;
-	background-size: cover;
-}
-.divback{
-	padding: 15% ;
-}
-.divv{
-	background-color: #1c1821;
-	padding: 15% 0% 10% 5%;
->>>>>>> 4b44e7523b5564f0ab51f528f84d51d25c354eca
+.top{
+	padding-top: 3%;
 }
 /* Responsive */
 
@@ -140,11 +125,6 @@ nav{
 @media screen and (max-width: 600px) {
 .hambur{
 	display: block;
-	font-size: 4rem;
-	float: right;
-	padding-left: 30%;
-	padding-top: 5%;
-	color: white;
 }
 .nav{
 	display: none;
